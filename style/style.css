@@ -163,7 +163,24 @@ main{
     }
 
     .showMenu{
-        display: block;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .menu {
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 50vw;
+        height: 100vh;
+        background-color: hsl(36, 100%, 99%);
+    }
+
+    .menu ul {
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 2rem;
     }
 
 
